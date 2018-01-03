@@ -101,14 +101,14 @@ return [
     /*
      * 小程序
      */
-    // 'mini_program' => [
-    //     'default' => [
-    //         'app_id'  => env('WECHAT_MINI_PROGRAM_APPID', ''),
-    //         'secret'  => env('WECHAT_MINI_PROGRAM_SECRET', ''),
-    //         'token'   => env('WECHAT_MINI_PROGRAM_TOKEN', ''),
-    //         'aes_key' => env('WECHAT_MINI_PROGRAM_AES_KEY', ''),
-    //     ],
-    // ],
+     'mini_program' => [
+         'default' => [
+             'app_id'  => env('WECHAT_MINI_PROGRAM_APPID', ''),
+             'secret'  => env('WECHAT_MINI_PROGRAM_SECRET', ''),
+             'token'   => env('WECHAT_MINI_PROGRAM_TOKEN', ''),
+             'aes_key' => env('WECHAT_MINI_PROGRAM_AES_KEY', ''),
+         ],
+     ],
 
     /*
      * 微信支付
@@ -129,12 +129,12 @@ return [
     /*
      * 企业微信
      */
-    // 'work' => [
-    //     'default' => [
-    //         'corp_id' => 'xxxxxxxxxxxxxxxxx',
-    ///        'agent_id' => 100020,
-    //         'secret'   => env('WECHAT_WORK_AGENT_CONTACTS_SECRET', ''),
-    //          //...
-    //      ],
-    // ],
+     'work' => [
+         'default' => [
+             'corp_id' => 'xxxxxxxxxxxxxxxxx',
+             'agent_id' => 100020,
+             'secret'   => env('WECHAT_WORK_AGENT_CONTACTS_SECRET', ''),
+              //...
+          ],
+     ],
 ];
